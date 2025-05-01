@@ -1,1 +1,30 @@
 
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.editor-container {
+  display: flex;
+  gap: 20px;
+}
+
+.textarea {
+  flex: 1;
+  height: 90vh;
+  padding: 10px;
+  font-size: 16px;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.preview {
+  flex: 1;
+  height: 90vh;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
